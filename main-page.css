@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Before the Rainbow;
+    src:url(./Font/Before\ the\ Rainbow.otf)
+  }
+
+body{
+    background-color: #f4eadb;
+}
+
+.header-text{
+    font-family: Before the Rainbow, cursive;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    position: fixed;
+
+
+}
