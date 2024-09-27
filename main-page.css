@@ -7,18 +7,247 @@
 @font-face {
     font-family:Before the Rainbow;
     src:url(./Font/Before\ the\ Rainbow.otf)
-  }
-
-body{
-    background-color: #f4eadb;
 }
 
+@font-face{
+    font-family:ShantellSans-VariableFont;
+    src: url(./Font/ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+}
+
+@font-face {
+    font-family: Gluten-VariableFont;
+    src: url(./Font/Gluten-VariableFont_slnt\,wght.ttf);
+}  
+
+
+body{
+    background-color: #f5efeb;
+}
+
+
+.container-nav{
+    width: 100%;
+    height: 100%;
+    padding-left:5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+}
+
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.logo-img{
+    width: 80px;
+    height: 80px;
+    margin: 30px 0;
+}
+
+
 .header-text{
+    outline: none;
     font-family: Before the Rainbow, cursive;
     font-weight: 900;
-    text-align: center;
-    margin-top: 30px;
-    position: fixed;
+    margin: 20px;
+}
 
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+ul{
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2rem;
+
+}
+
+nav ul li{
+    list-style:  none;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+
+.Home{
+    
+    font-family: ShantellSans-VariableFont;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #567c8d;
+    padding: 5px;
+    
+}
+
+.Contact-us{
+    font-family: ShantellSans-VariableFont;
+    font-weight: 700;
+    font-style: normal;
+    color: #567c8d;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+.About-us{
+    font-family: ShantellSans-VariableFont;
+    font-weight: 700;
+    font-style: normal;
+    color: #567c8d;
+    text-decoration: none;
+    padding: 5px;
+    
+
+}
+
+ul li a:hover{
+    color: #f8b600;
+}
+
+.action-btn{
+    font-family: ShantellSans-VariableFont;
+    background-color:#BDD3CE;
+    color: #4f5455;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+.action-btn:hover{
+    scale: 1.05;
+    color:#567c8d;
+
+}
+
+.action-btn:active{
+    scale: 0.95;
+}
+
+/* Main */
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding-left:5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content h1{
+    width: 600px;
+    font-size: 3rem;
+    font-family: Gluten-VariableFont;
+    text-transform: capitalize;
+    text-align-last:center ;
+    line-height: 60px;
+}
+
+.content h1 span{
+
+    background: linear-gradient(90deg, #f3eab6,#efc0c6,#add0c8);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px #4b324a ;
+    display: inline-block;
+
+}
+
+.content p{
+    width: 600px;
+    font-family: ShantellSans-VariableFont;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+.content-bg-img{
+    width: 300px;
+    height: 300px;
+}
+.row{
+    height: 365px;
+    width: 245px;
+    background-color: #f7f7f7;
+    border: 2px solid #e7e7e7 ;
+    border-radius: 10px;
+    margin: 20px 20px;
+    position: absolute;
+}
+
+.first-bread-img img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 20px 20px;
+    
+}
+
+.yellow-Bun{
+    font-weight: bolder;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-family:  Arial, sans-serif;
+
+}
+
+.lorem{
+    font-family:  Arial, sans-serif;
+    color: #6a6767;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+.price{
+    font-family:  Arial, sans-serif;
+    color: #e18d0e;
+    margin: 10px 20px;
+    font-size: 16px;
+}
+
+
+.button{
+    background-color: #ff9100;
+    color: #fffdfd;
+    margin: 10px 20px;
+    padding:  7px 10px;
+    border: 2px solid #ec8c0e;
+    border-radius: 5px;
+    
 
 }
