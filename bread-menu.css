@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Before the Rainbow;
+    src:url(./Font/Before\ the\ Rainbow.otf)
+}
+
+@font-face{
+    font-family:Glow-Bloom-Demo;
+    src: url(./Font/Glow\ Bloom\ DEMO.ttf);
+}
+
+@font-face {
+    font-family: Gluten-VariableFont;
+    src: url(./Font/Gluten-VariableFont_slnt\,wght.ttf);
+}  
+
+
+body{
+    background-color: #EDE8DC;
+
+}
+
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px 20px;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.logo-text{
+    font-family:Before the Rainbow ;
+}
+
+.logo-img{
+    width:60px ;
+    height:60px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style:none;
+    margin-top: 20px;
+    margin-right: 60px;
+    font-family:Gluten-VariableFont ;
+    
+}
+
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:Gluten-VariableFont ;
+}
+
+.button .action-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #6A9C89;
+    color: bisque;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: sandybrown;
+}
+
+.Home{
+    color: #6A9C89;
+
+}
+
+.Contact-us{
+    color:#6A9C89;
+}
+
+.About-us{
+    color: #6A9C89;
+
+}
+
+/* Main */
+
+.content{
+    flex-wrap: wrap;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.item{
+   font-family:Glow-Bloom-Demo;
+   border: 2px solid #5F6F65;
+   background-color: #E9EFEC;
+   margin: 20px;
+   border-radius: 5px;
+   width: 220px;
+   height: 300px;
+}
+
+.img img{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #5a6c50;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+    
+}
+
+.para{
+    font-family: serif;
+    color: #696a69;
+    font-size: 14px;
+    display: inline-block;
+    width: 180px;
+
+}
+
+.button-cart{
+    font-family:Glow-Bloom-Demo;
+    text-decoration: none;
+    color: #E9EFEC;
+    background-color: #9CA986;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.subject{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.Hot-Crossbun img{
+    width: 130px;
+}
