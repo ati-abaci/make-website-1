@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Before the Rainbow;
+    src:url(./Font/Before\ the\ Rainbow.otf)
+}
+
+@font-face{
+    font-family:Glow-Bloom-Demo;
+    src: url(./Font/Glow\ Bloom\ DEMO.ttf);
+}
+
+@font-face {
+    font-family: Gluten-VariableFont;
+    src: url(./Font/Gluten-VariableFont_slnt\,wght.ttf);
+}  
+
+
+body{
+    background-color: #E5D9F2;
+
+}
+
+.navbar{
+    display:flex ;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px 20px;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.logo-text{
+    font-family:Before the Rainbow ;
+}
+
+.logo-img{
+    width:60px ;
+    height:60px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style:none;
+    margin-top: 20px;
+    margin-right: 60px;
+    font-family:Gluten-VariableFont ;
+    
+}
+
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:Gluten-VariableFont ;
+}
+
+.button .action-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #624E88;
+    color: bisque;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: sandybrown;
+}
+
+.Home{
+    color: #624E88;
+
+}
+
+.Contact-us{
+    color: #624E88;
+}
+
+.About-us{
+    color: #624E88;
+
+}
+
+
+/* Main */
+.content{
+    flex-wrap: wrap;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.item{
+   font-family:Glow-Bloom-Demo;
+   border: 2px solid #624E88;
+   background-color: #F8EDED;
+   margin: 20px;
+   border-radius: 5px;
+   width: 220px;
+   height: 300px;
+}
+
+.img img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+    background-color: #EECEB9;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+    
+}
+
+.para{
+    font-family: serif;
+    color: #696a69;
+    font-size: 14px;
+    display: inline-block;
+    width: 180px;
+
+}
+
+.button-cart{
+    font-family:Glow-Bloom-Demo;
+    text-decoration: none;
+    color: #624E88;
+    background-color: #E5D9F2;
+    border: 2px solid #8967B3;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.button-cart:hover{
+    scale: 1.05;
+    color:rgb(169, 97, 35);
+
+}
+
+
+.subject{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.text-about-title{
+    font-family:Before the Rainbow ;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-1{
+    width: 500px;
+    border: #8967B3 2px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.text{
+    font-family:Glow-Bloom-Demo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
