@@ -173,6 +173,14 @@ nav ul li{
     border-radius: 5px;
 
 }
+
+.button-cart:hover{
+    scale: 1.05;
+    color:#4d3145;
+
+}
+
+
 .subject{
     font-size: 2rem;
     margin-bottom: 10px;
@@ -188,3 +196,37 @@ nav ul li{
 .Hot-Crossbun img{
     width: 130px;
 }
+
+
+/* table */
+
+.table-section{
+    margin-bottom: 40px;
+
+}
+
+.Allergen-Information{
+    border: 3px solid #5a6c50;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 40px auto;
+}
+
+.Allergen-Information-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.Allergen-Information th{
+    border: 3px solid #5a6c50;
+
+}
+
+.Allergen-Information .row{
+    border: 3px solid #5a6c50;
+}
+
