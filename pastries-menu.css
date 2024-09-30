@@ -88,6 +88,12 @@ nav ul li{
     border-radius: 20px;
     background-color: #F05A7E;
     color: bisque;
+    scale: 0.95;
+}
+
+.button .action-btn:hover{
+    scale: 1.1;
+
 }
 
 .navbar a{
@@ -95,7 +101,7 @@ nav ul li{
 }
 
 .navbar a:hover{
-    color: sandybrown;
+    color:#d6b0b0;
 }
 
 .Home{
@@ -246,7 +252,10 @@ hr {
 @media (max-width:798px) {
     .text-about-title{
         font-size: 14px;
-
     }
-    
+    .Text-about{
+        width: 500px;
+    }
+
+
 }

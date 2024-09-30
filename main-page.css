@@ -26,147 +26,141 @@ body{
 }
 
 .navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
+    display:flex ;
     justify-content: space-between;
-    border-bottom: solid 3px #b36a819e;
-    padding: 25px 7%;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
 }
 
 .logo{
     display: flex;
+    justify-content: center;
     align-items: center;
-}
+    margin:30px 20px;
+    gap: 10px;
+    width: 100%;
 
-.logo-img{
-    width: 90px;
-    height: 90px;
 }
 
 .logo-text{
-    outline: none;
-    font-family: Before the Rainbow, cursive;
-    font-weight: 900;
-    margin: 20px;
+    font-family:Before the Rainbow ;
 }
 
-nav a{
-    position: relative;
-
+.logo-img{
+    width:60px ;
+    height:60px;
 }
 
-ul{
-    outline: none;
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul li{
     list-style:none;
     margin-top: 20px;
-    margin-right: 40px;
-    display: inline-block;
     margin-right: 60px;
-}
-
-
-.Home{
-    
-    font-family: ShantellSans-VariableFont;
-    font-weight: 700;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #921A40;
-    padding: 5px;
+    font-family:Gluten-VariableFont ;
     
 }
 
-.Contact-us{
-    font-family: ShantellSans-VariableFont;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #921A40;
-    text-decoration: none;
-    padding: 5px;
-    
-}
 
-.About-us{
-    font-family: ShantellSans-VariableFont;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #921A40;
-    text-decoration: none;
-    padding: 5px;
-    
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family:Gluten-VariableFont ;
 
 }
 
- a:hover{
-    color: #f8b600;
-    text-decoration: none;
-}
+        
 
-.action-btn{
-    font-family: ShantellSans-VariableFont;
-    background-color:#dca2a2;
-    color: #f8ffff;
-    padding: 0.5rem 1rem;
-    border: none;
-    outline: none;
-    text-decoration: none;
+.button .action-btn{
+    padding: 10px;
     border-radius: 20px;
-    font-weight: bold;
-    
-}
-
-.action-btn:hover{
-    scale: 1.05;
-    color:#4d3145;
-
-}
-
-.action-btn:active{
+    background-color: #dca2a2;
+    color: bisque;
     scale: 0.95;
 }
 
-/* Main */
-main{
-    
-    box-sizing: border-box;
+.button .action-btn:hover{
+    scale: 1.1;
+
+}
+.navbar a{
+    text-decoration: none;
 }
 
-.content{
+.navbar a:hover{
+    color: sandybrown;
+}
+
+.Home{
+    color: #C75B7A;
+
+}
+
+.Contact-us{
+    color:#C75B7A;
+}
+
+.About-us{
+    color: #C75B7A;
+
+}
+
+
+/* Main */
+
+.Hero{
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    word-spacing: 5px;
 }
 
-.content h1{
-    width: 600px;
+.hero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.hero-text h1{
     width: 400px;
+    font-family:Before the Rainbow;
     font-size: 5rem;
     font-weight: 700;
-    font-family:Before the Rainbow;
+    text-align: center;
     text-transform: capitalize;
-    text-align-last:center ;
+    text-align-last:center;
     line-height: 60px;
 }
 
-.content h1 span{
+.hero-text h1 span{
 
     background: linear-gradient(90deg, #d6cfa5,#efc0c6,#add0c8);
     background-clip: text;
     color: transparent;
-    display: inline-block;
 
 }
 
-.content p{
+.hero-text p{
     width: 600px;
     font-family: ShantellSans-VariableFont;
     font-size: 20px;
@@ -177,19 +171,25 @@ main{
 
 }
 
-.content-img{
-   width: 800px;
-   height: 590px;
+.hero-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-img img{
+   width: 450px;
+   height: 400px;
 
 }
 
+
 .row{
-    position: absolute;
-    gap: 80px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
 }
 
 .item{
@@ -255,7 +255,7 @@ main{
 }
 
 
-.button{
+.Visit-menu-btn{
     background-color:#b36a81;
     color: #e0d1d1;
     margin: 15px 66px;
@@ -263,10 +263,49 @@ main{
     border: 2px solid #dca2a2;
     border-radius: 5px;
     text-decoration: none;
+    font-family:Gluten-VariableFont;
+}
+
+.Visit-menu-btn:hover{
+    color: #e6c06c;
+    text-decoration: none;
+}
+
+.Visit-menu-cookie{
+    background-color:#b36a81;
+    color: #e0d1d1;
+    margin: 10px 60px;
+    padding:  7px 10px;
+    border: 2px solid #dca2a2;
+    border-radius: 5px;
+    text-decoration: none;
     font-family:Gluten-VariableFont ;
 }
 
-.button:hover{
+.Visit-menu-cookie:hover{
     color: #e6c06c;
+    text-decoration: none;
+
 }
 
+
+@media(max-width:1080px){
+    .Hero{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-text h1{
+        font-size:24px;
+    }
+    .hero-text p{
+        font-size:14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

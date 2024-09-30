@@ -88,8 +88,13 @@ nav ul li{
     border-radius: 20px;
     background-color: #6A9C89;
     color: bisque;
+    scale: 0.95;
 }
 
+.button .action-btn:hover{
+    scale: 1.1;
+
+}
 .navbar a{
     text-decoration: none;
 }
@@ -200,17 +205,17 @@ nav ul li{
 
 /* table */
 
-.table-section{
-    margin-bottom: 40px;
 
+.table-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.Allergen-Information{
-    border: 3px solid #5a6c50;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 40px auto;
+.Allergen-Information-table{
+    margin:20px;
+    border: 2px solid #5a6c50;
 }
 
 .Allergen-Information-text{
@@ -221,12 +226,19 @@ nav ul li{
     margin-top: 40px;
 }
 
-.Allergen-Information th{
-    border: 3px solid #5a6c50;
-
+tbody tr:nth-child(even){
+    background-color: #a0a795;
 }
 
-.Allergen-Information .row{
-    border: 3px solid #5a6c50;
+thead tr{
+    background-color: #9CA986;
+    color: #545350;
 }
+
+tbody td{
+    border: 2px solid #50524f;
+    border-radius: 5px;
+}
+
+
 
